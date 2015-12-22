@@ -1,0 +1,65 @@
+TO DO:
+
+LOCATIONS - 70%
+-----------------------------------------------------------------------------------
+* Add meta box for location data - DONE
+* Save meta box data - DONE
+* Make applications go to correct location based on postcode
+* Make orders go to correct location - meta data on application
+
+filter_applications_by_location function
+-----------------------------------------------------------------------------------
+* Add a meta key for the user to associate location
+* Get the meta key for the current users location
+* Add a meta key for location to each application when processing or manually (dropdown) - DONE
+* Filter applications list based on the location meta key (if not an administrator)
+
+APPLICATIONS - 90%
+-----------------------------------------------------------------------------------
+* What happens when the admin clicks accept?
+-- The post should be converted to customers -- DONE
+-- The system should send an email to admins and to customer - DONE - Needs Styling
+-- Customer added as user (contributer) - DONE
+-- Customer to recieve username and password - DONE - Needs styling
+-- Application should be associated with the correct location based on postcode, if not found revert to admin location (Chester)
+
+!! Important - This needs making more efficient, reducing wp_update_post calls !!
+
+
+
+CUSTOMERS - 95%
+-----------------------------------------------------------------------------------
+* Create front-end management area for customers to make orders
+-- Custom login form - DONE
+-- Order form - DONE
+---- Use data tables for formatting??
+
+
+
+ORDERS - 10%
+-----------------------------------------------------------------------------------
+* Add meta box for order data
+* Save meta box - Needed or just a view?
+* Make sure orders are associated with customers - Done
+* Make sure orders are sent to correct location
+* Order status needed? - Yes
+* Add order list view columns
+-- Order Items
+-- Order options
+* On view order screen should also have the option to assign to a different location
+* Reorder functionality
+* Delete functionality
+
+
+THEME - 0%
+-----------------------------------------------------------------------------------
+* Homepage
+* Normal page
+* Blog index - needed?
+* Single blog - needed?
+* Contact us
+* Remove FA plugin and include in theme - DONE
+* Make sure tooltips are working when we include our own Bootstrap
+
+* Customer management page - see customer section
+* Order page - see orders section

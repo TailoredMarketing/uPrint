@@ -1,0 +1,32 @@
+.publish_custom {
+	padding: 6px 10px 8px;
+	padding-top: 0;
+}
+.publish_custom .button-primary {
+	background-color: #43ac6a;
+    border-color: #3c9a5f;
+}
+.publish_custom .button-primary:hover, .publish_custom .button-primary:active,.publish_custom .button-primary:focus {
+	background-color: #358753;
+    border-color: #2b6e44;
+}
+.order-contact-table th, .order-contact-table td {
+	padding: 10px 10px 10px 0;
+}
+.order-contact-table th {
+	text-align: left;
+}
+
+.order-detail-table {
+	width: 50em;
+}
+.order-detail-table th, .order-detail-table td {
+	padding: 10px;
+}
+.order-detail-table th {
+	text-align: left;
+	background-color: #ccc;
+}
+.column-default_loc {
+	width: 4em;
+}

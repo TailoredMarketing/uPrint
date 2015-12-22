@@ -1,0 +1,32 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+.navbar-default {
+	background: none;
+	border: none;
+}
+.navbar-default li a {
+	font-size: 18px;
+	text-transform: uppercase;;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: none;
+	border: none;
+	color: #000;
+}
+.navbar-default .active.highlight a, .navbar-default .navbar-nav .highlight a:hover {
+	color: #e50086;
+}
+.navbar-default li.highlight a, .navbar-default li.highlight.active a:hover {
+	color:#7fc927;
+}
+#footer-container {
+	background-image: url(../images/footer.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+	min-height: 10px;
+}
