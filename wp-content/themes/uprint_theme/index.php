@@ -14,7 +14,7 @@
 
                         <?php endwhile; endif; ?>  
                     </div>
-                    <div class="col-md-3" id="sidebar">
+                    <div class="col-md-3">
                         <?php get_sidebar(); ?>
                     </div>
                 </div>

@@ -60,12 +60,21 @@ class tailored_theme_class {
 		register_sidebar( array(
 			'name' => __( 'Main Sidebar', 'seowned' ),
 			'id' => 'main_sidebar',
-			'before_widget' => '<div class="panel panel-default">aa',
+			'before_widget' => '<div class="panel panel-default">',
 			'after_widget' => "</div></div>",
 			'before_title' => '<div class="panel-heading"><h3 class="panel-title">',
 			'after_title' => '</h3></div><div class="panel-body">',
 		) );
-				
+		
+		register_sidebar( array(
+			'name' => __( 'Contact Sidebar', 'seowned' ),
+			'id' => 'contact_sidebar',
+			'before_widget' => '<div class="panel panel-default"><div class="panel-body">',
+			'after_widget' => "</div></div>",
+			'before_title' => '<h3>',
+			'after_title' => '</h3>',
+		) );
+		
 		register_sidebar( array(
 			'name' => __( 'Blog Sidebar', 'seowned' ),
 			'id' => 'blog_sidebar',
